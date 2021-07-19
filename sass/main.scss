@@ -1,0 +1,43 @@
+//   abstracts
+@import './abstracts/fonts';
+@import './abstracts/variables';
+@import './abstracts/utils';
+@import './abstracts/mixins';
+@import './abstracts/visually-hidden';
+
+// base
+@import './base/base';
+@import './base/typography';
+@import './base/normalize';
+
+//components
+@import './components/type-house';
+@import './components/btn';
+@import './components/card';
+@import './components/box';
+
+//layout
+@import './layout/headr';
+@import './layout/nav';
+@import './layout/list';
+@import './layout/forms';
+@import './layout/footer';
+@import './components/modals';
+
+
+
+//pages
+@import './page/hero';
+@import './page/service';
+@import './page/bugun';
+@import './page/rooms';
+@import './page/warranty';
+@import './page/statistics';
+@import './page/material';
+@import './page/ourcontacts';
+
+.proba{
+    min-height: 100px;
+}
+
+

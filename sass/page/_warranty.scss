@@ -1,0 +1,60 @@
+
+.warranty{
+    text-align: center;
+    background: url(../images/warranty-bg.png), linear-gradient(0deg, rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.89));
+    padding-top: 5.4rem;
+    padding-bottom: 8.1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__heading{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8.1rem;
+        margin-bottom: 6.3rem;
+        text-align: center;
+        font-weight: 400;
+        width: 67.8rem;
+    }
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.8rem;
+        line-height: 150%;
+        
+    }
+    &__left{
+        position: relative;
+        &-text{
+            position: absolute;
+            top: 43.2rem;
+            left: 3rem;
+            width: 28.8rem;
+            color: $color-secondary;
+        }
+    }
+    &__cards{
+        width: 70rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+         list-style: none;
+
+    }
+
+    .card{
+        width: 33.3rem;
+        margin-bottom: 4.2rem;
+        display: flex;
+        justify-content: space-between;
+      
+        &__text{
+            text-align: start;
+            width: 30.2rem;
+        }
+        &::before{
+            @include baImg(2rem,2.2rem,'../images/true-icon.svg')
+        }        
+    }
+    
+}

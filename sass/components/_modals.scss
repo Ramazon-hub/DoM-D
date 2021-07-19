@@ -1,0 +1,301 @@
+.headr-modal{
+    width: 37%;
+    height: 77rem;
+    padding-top: 3.5rem;
+    padding-left: 3.4rem;
+    padding-right: 3.2rem;
+    background-color:rgba(255, 255, 255, 0.87);
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    // top: -50%;
+    display: none;
+    position: fixed;
+    h1{
+        color: #fff;
+    }
+    &__top{
+        display: flex;
+        .close{
+            position: relative;
+            top:1.1rem;
+            cursor: pointer;
+            &__line{
+                width: 3.4rem;
+                height: 3.4px;
+                background-color: $color-primary;
+                position: absolute;
+                &:first-child{
+                    transform: rotate(45deg);
+                }
+                &:last-child{
+                    transform: rotate(-45deg);
+                    
+                }
+            }
+        }
+    }
+    &__logo{
+        display: block;
+        margin-left: auto;
+    }
+}
+.show-modal{
+    display: block;
+}
+
+
+.modal{
+
+  &__service{
+    width: 100%;
+    height: 100vh;
+    background: #212121;
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 999;
+
+    &-active{
+      display: flex;
+    }
+
+    &-body{
+      width: 110rem;
+      padding: 7.2rem 0 6.1rem 0;
+      background-color:$color-secondary;
+      box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.08);
+      position: relative;
+
+      &::after{
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+        opacity: 0.5;
+        filter: blur(347px);
+        transform: rotate(-25.95deg);
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+    }
+
+    &-title{
+      font-weight: normal;
+      font-size: 3.2rem;
+      line-height: 3.7rem;
+      text-align: center;
+      color: $color-primary;
+      margin-bottom: 5.6rem;
+      padding: 0 9rem;
+    }
+
+    &-home-area{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0 9rem;
+      
+      &__text{
+        font-weight: normal;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        color: $color-primary;
+      }
+
+      &__radio{
+        display: none;
+      }
+
+      &__radio:checked + .radio__kvadrat{
+       background: url(../images/check.png), $color-gold;
+       background-repeat: no-repeat;
+       background-size: 1.5rem 1.6rem;
+       background-position: center;
+       box-shadow: 0px 0px 40px #EAB656;
+      }
+    }
+
+    &-label{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &-card{
+        margin-left: 16.2rem;
+      }
+    }
+
+    &__radio-text{
+      display: inline-block;
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
+
+    &-box{
+      display: flex;
+      justify-content: space-between;
+
+      padding-left: 9rem;
+      padding-right: 9rem;
+      width: 106rem;
+
+      margin-top: 5.1rem;
+
+      &-label{
+        width: 16rem;
+      }
+      
+      &-home{
+        display: inline-block;
+        cursor: pointer;
+        box-shadow: 0px 0px 21px 1px rgba(39, 17, 10, 0.16);
+        background-color: $color-secondary;
+        padding-top: 2rem;
+
+        position: relative;
+
+        &::before{
+          content: "";
+          display: inline-block;
+          width: 2.8rem;
+          height: 2.8rem;
+          border-radius: 50%;
+          box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.16);
+          background: url(../images/check.png), $color-secondary;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 1.5rem 1.6rem;
+
+          position: absolute;
+          top: -1.7rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+
+      &-img{
+        display: inline-block;
+        width: 100%;
+        height: 14rem;
+      }
+
+      &-radio{
+        display: none;
+
+        &:checked + .modal__service-box-home{
+          background-color: $color-gold;
+        }
+
+        &:checked + .modal__service-box-home::before{
+         background: url(../images/check.png), $color-gold;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 1.5rem 1.6rem;
+          box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.16);
+        }
+      }
+
+      &-text{
+        display: inline-block;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        color: $color-primary;
+        margin-top: 1rem;
+      }
+    }
+
+    &-card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 1.3rem 0;
+      background: rgba(196, 196, 196, 0.14);
+      margin-top: 2rem;
+      margin-bottom: 3.3rem;
+    }
+  }
+
+  &-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+
+    &__input{
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 3.1rem;
+      color: #8C8C8C;
+      background: #F4F4F4;
+      padding: 1rem 2rem;
+      width: 50%;
+      display: inline-block;
+      margin-right: 2rem;
+      border: none;
+      outline: none;
+
+      &::placeholder{
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 3.1rem;
+        color: #8C8C8C;
+      }
+    }
+  }
+}
+
+.radio{
+  &__kvadrat{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    background-color: $color-secondary;
+    margin-right: 2.2rem;
+  }
+}
+
+
+.modal__service-active{
+  display: flex;
+}
+
+  //   ---------arrrow--------
+
+  .arrow-img{
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+  
+    position: fixed;
+    top: 50%;
+    right: 2rem;
+  
+    z-index: 9999;
+  
+    opacity: 0;
+    transform: translateX(5rem);
+    transition: all .5s;
+  
+    &-active{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

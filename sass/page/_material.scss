@@ -1,0 +1,29 @@
+.material{
+    background-color: $color-secondary;
+    padding: 9.2rem 0 11.5rem 0;
+  
+    &__ul{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      margin-top: 9.7rem;
+      list-style: none;
+  
+      &::before,
+      &::after{
+        content: "";
+        display: inline-block;
+        width: 2.6rem;
+        height: 2.2rem;
+        background-image: url(../images/Arrow-gold.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+      }
+  
+      &::after{
+        transform: rotate(180deg);
+      }
+    }
+  }

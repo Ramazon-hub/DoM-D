@@ -1,0 +1,30 @@
+.type-house{
+    &-list{
+        list-style: none;
+        margin-top: 5.1em;
+        &__item{            
+            margin-top: 1.9rem;
+        }
+        &__link{
+    
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: $color-primary;
+            transition:  color .4s;
+            &:hover{
+                color: $color-gold;
+            }
+    
+        }
+        &--link{
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+.type-house-list-2{
+    list-style: none;
+    margin-left: 2rem;
+}

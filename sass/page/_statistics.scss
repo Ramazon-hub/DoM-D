@@ -1,0 +1,40 @@
+.statistics{
+    background: #1D1A14;
+    padding: 4.2rem 0;
+  
+    &__cards{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    &__card{
+      display: flex;
+      align-items: center;
+    }
+  
+    &__number{
+      display: inline-block;
+      font-weight: bold;
+      font-size: 6.4rem;
+      line-height: 7.5rem;
+      color: $color-gold;
+    }
+  
+    &__text{
+      display: inline-block;
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 150%;
+      color: $color-secondary;
+  
+      width: 14.7rem;
+      margin-left: 1.7rem;
+  
+      &-4{
+        width: 13.7rem;
+        margin-left: 1.7rem;
+      }
+    }
+  }

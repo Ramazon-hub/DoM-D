@@ -1,0 +1,32 @@
+.form{
+    .question{
+        display: block;
+        resize: none;
+        width: 44.5rem;
+        height: 12.1rem;
+       
+        &::placeholder{
+            font-size: 14px;
+            line-height: 174.69%;
+            color: rgba(0, 0, 0, 0.25);
+        }
+    }
+    .phone-input{
+        display: block;
+        width: 44.5rem;
+        padding-top: 9px;
+        padding-left: 1.4rem;
+        padding-bottom: 1.7rem;
+        margin-top: 1.5rem;
+        margin-bottom: 3.5rem;
+
+
+    }
+    .form-btn{
+        outline:none;
+        // color: olivedrab;
+        border: none;
+        font-weight: 400;
+    }
+
+}

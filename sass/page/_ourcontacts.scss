@@ -1,0 +1,63 @@
+
+.ourcontact{
+    padding-top: 7.4rem;
+    padding-bottom: 9.1rem;
+    background: url(../images/ourcontact-bg.png),rgba(255, 255, 255, 0.46);
+    background-size: cover;
+    &__heading{        
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4.5rem;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        padding: 6.7rem 3.5rem 4rem 4rem;
+        background-color:  rgba(255, 255, 255, 0.6);
+        box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+        &-text{
+            width: 42.8rem;
+            font-size: 20px;
+            line-height: 150%;
+            margin-top: 2.9rem;
+            margin-bottom: 4.6rem;
+
+        }
+    }
+   
+    &__right{
+        padding: 6.7rem 5.4rem 4.2rem 4rem;
+
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+        &-heading{
+            margin-bottom: 2.9rem;
+        }
+        .link{
+            color: $color-primary;
+            text-decoration: none;
+            font-size: 2rem;
+            line-height: 2.3rem;
+            display: inline-block;
+          
+        }
+        .address{
+            width: 21rem;
+            margin-top: 3rem;
+            margin-bottom: 2.5rem;
+        }
+        .email{
+            margin-bottom: 3.1rem;
+        }
+        .mi-na-svyazi{
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+            color: $color-gold;
+            margin-bottom: 2.8rem;
+        }
+
+    }
+    
+}

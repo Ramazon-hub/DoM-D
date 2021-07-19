@@ -1,0 +1,53 @@
+.heading-h1{
+font-weight: 900;
+font-size: 60px;
+line-height: 100%;
+}
+.heading-h2{
+    font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+}
+.heading-h3{
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+}
+.heading-h4{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.heading-900{
+    font-weight: 900;
+}
+.heading-700{
+    font-weight: bold;
+}
+.heading-h2{
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-align: center;
+    color: #1E0801;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--service{
+     width: 88rem;
+    }
+
+    &--material{
+        width: 95.8rem;
+    }
+
+    &--bugun{
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+.black{
+    font-weight: bold;
+}
+

@@ -1,0 +1,84 @@
+.bugun{
+    margin-bottom: 13rem;
+  
+    &__text{
+      font-weight: normal;
+      font-size: 3rem;
+      line-height: 3.5rem;
+      text-align: center;
+      color: #1E0801;
+      margin-top: 2.4rem;
+      margin-bottom: 5.5rem;
+    }
+  
+    &__box{
+      background: url(../images/bugun.png), #1D1A14;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right;
+      padding: 6rem 9rem 6.2rem 9rem;
+  
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      &-contain{
+        width: 41.7rem;
+      }
+  
+      &-titel{
+        font-weight: bold;
+        font-size: 3.6rem;
+        line-height: 139%;
+        color: $color-gold;
+      }
+  
+      &-text{
+        font-weight: normal;
+        font-size: 2.4rem;
+        line-height: 139%;
+        margin: 1.9rem 0 8rem 0;
+        color: $color-secondary;
+      }
+  
+      &-video{
+        width: 43rem;
+        height: 36.7rem;
+  
+        position: relative;
+  
+        &-play{
+          width: 5.8rem;
+          height: 5.8rem;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.6);
+          cursor: pointer;
+  
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          
+          &::before{
+            content: "";
+            display: inline-block;
+            width: 2.6rem;
+            height: 3rem;
+            background-image: url(../images/play-icon.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+    }
+  
+    &__img{
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+    }
+  }

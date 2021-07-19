@@ -1,0 +1,120 @@
+.headr{
+    padding: 3rem 0;
+    background-color: $color-primary;
+    position: relative;
+    // &__content{
+    //     // display: flex;
+    //     // max-width: 126rem;
+    //     // margin-left: 3.4rem;
+    // }
+    .menu{
+        margin-top: 5px;
+        margin-right: 8.4rem;
+        cursor: pointer;
+        position: absolute;
+        // top: 4rem;
+        left: 4rem;
+        &__line{
+            width: 3.4rem;
+            height: 3.4px;
+            background-color:$color-secondary;
+            &:not(:last-child){
+    
+                margin-bottom: 8.6px;
+            }
+        }
+    }
+    .logo-img{
+        width: 17.3rem;
+        height: 4.5rem;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+}
+.info-text{
+    width: 24.3rem;
+    margin-left: 2.1rem;
+    display: inline-block;
+    color: $color-secondary;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Roboto';
+    &--700{
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+    
+}
+.contact{
+ 
+    &__text{
+        text-shadow: 0px 0px 3px rgba(211, 190, 136, 0.86);
+        margin-bottom: 3rem;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    &__viber{
+        padding: 0 3rem;
+        margin-right: 1.6rem;
+        
+        &::before{
+                    @include baImg(3.1rem,3.2rem,'../images/viber-icon.png'){
+                        vertical-align: middle;
+                        margin-right: 1.3rem;
+                    }
+           
+                 }
+
+         }
+        
+    &__tg{
+        padding: 0 1.7rem;
+        &::before{
+                    @include baImg(3.1rem,3.2rem,'../images/tg-icon.png'){
+                        vertical-align: middle;
+                        margin-right: 1.7rem
+                    }
+   
+                }
+
+         }
+}
+.contact-net{
+    background-color: rgba(255, 255, 255, 0.22);
+    text-decoration: none;
+    color: $color-secondary;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    font-size: 1.4rem;
+    &--white{
+        background-color: $color-secondary;
+        color: $color-primary;
+    }
+}
+.phone{
+    &__number{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: $color-secondary;
+        margin-bottom: 1.6rem;
+        &::before{
+            @include baImg(1.9rem,1.8rem,'../images/phone-iconsvg.svg'){
+                vertical-align: middle;
+                margin-right: 1.7rem;
+            }
+
+        }
+        &--black{
+            font-size: 3.2rem;
+            line-height: 4.2rem;
+            color: #000;
+            margin-top: 4rem;
+        }
+
+    }
+}

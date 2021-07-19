@@ -1,0 +1,28 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.container{
+    max-width: 110rem;
+    padding: 0 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{
+    font-family: 'Roboto';
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    
+}
+
+img{
+    vertical-align: middle;
+}

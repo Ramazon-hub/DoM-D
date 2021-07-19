@@ -1,0 +1,161 @@
+<section class="service">
+            <div class="container">
+                <h2 class="h2 h2--service">
+                    <span class="black">Оказываем услуги комплексно,</span>
+                    совмещая отдельные виды работ
+                </h2>
+
+                <ul class="boxes">
+                    <li class="box">
+                        <p class="box__title">Каркасные дома</p>
+                        <a class="btn btn--box js-btn-modal" href="#">Подробнее</a>
+                        <img class="box__img" src="./images/1-home.png" alt="Каркасные домаbeautiful home">
+                    </li>
+
+                    <li class="box">
+                        <p class="box__title">Дома из клеёного бруса</p>
+                        <a class="btn btn--box js-btn-modal" href="#">Подробнее</a>
+                        <img class="box__img" src="./images/2-home.png" alt="Дома из клеёного бруса">
+                    </li>
+
+                    <li class="box">
+                        <p class="box__title">Дома из брёвен</p>
+                        <a class="btn btn--box js-btn-modal" href="#">Подробнее</a>
+                        <img class="box__img" src="./images/3-home.png" alt="Дома из брёвен">
+                    </li>
+
+                    <li class="box">
+                        <p class="box__title">Фахверковые дома</p>
+                        <a class="btn btn--box js-btn-modal" href="#">Подробнее</a>
+                        <img class="box__img" src="./images/4-home.png" alt="Фахверковые дома">
+                    </li>
+
+                    <li class="box">
+                        <p class="box__title">Беседки</p>
+                        <a class="btn btn--box js-btn-modal" href="#">Подробнее</a>
+                        <img class="box__img" src="./images/5-besetka.png" alt="Беседки">
+                    </li>
+
+                    <li class="box">
+                        <p class="box__title">Ремонт и отделка</p>
+                        <a class="btn btn--box js-btn-modal" href="#">Подробнее</a>
+                        <img class="box__img" src="./images/6-instrument.png" alt="Ремонт и отделка">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="modal__service">
+                <div class="container">
+                    <div class="modal__service-body">
+                        <h3 class="modal__service-title">
+                            Укажите <span class="black">площадь</span> и
+                            <span class="black">материал стен</span> Вашего дома
+                        </h3>
+
+                        <div class="modal__service-home-area">
+                            <p class="modal__service-home-area__text">Площадь вашего дома:</p>
+
+                            <label class="modal__service-label" for="1">
+                                <input class="modal__service-home-area__radio" type="radio" name="redio" id="1">
+                                <span class="radio__kvadrat"></span>
+                                <span class="modal__service__radio-text">50-100м2</span>
+                            </label>
+
+                            <label class="modal__service-label" for="2">
+                                <input class="modal__service-home-area__radio" type="radio" name="redio" id="2">
+                                <span class="radio__kvadrat"></span>
+                                <span class="modal__service__radio-text">100-150м2</span>
+                            </label>
+
+                            <label class="modal__service-label" for="3">
+                                <input class="modal__service-home-area__radio" type="radio" name="redio" id="3">
+                                <span class="radio__kvadrat"></span>
+                                <span class="modal__service__radio-text">больше 150</span>
+                            </label>
+                        </div>
+
+                        <div class="modal__service-box">
+                            <label class="modal__service-box-label" for="11">
+                                <input class="modal__service-box-radio" type="radio" name="home" id="11">
+                                <span class="modal__service-box-home">
+                                    <img src="./images/1-home.png" alt="home" class="modal__service-box-img">
+                                </span>
+
+                                <span class="modal__service-box-text">Каркасные дома</span>
+                            </label>
+
+                            <label class="modal__service-box-label" for="22">
+                                <input class="modal__service-box-radio" type="radio" name="home" id="22">
+                                <span class="modal__service-box-home">
+                                    <img src="./images/2-home.png" alt="home" class="modal__service-box-img">
+                                </span>
+
+                                <span class="modal__service-box-text">Дома из клеёного бруса</span>
+                            </label>
+
+                            <label class="modal__service-box-label" for="33">
+                                <input class="modal__service-box-radio" type="radio" name="home" id="33">
+                                <span class="modal__service-box-home">
+                                    <img src="./images/3-home.png" alt="home" class="modal__service-box-img">
+                                </span>
+
+                                <span class="modal__service-box-text">Дома из брёвен</span>
+                            </label>
+
+                            <label class="modal__service-box-label" for="44">
+                                <input class="modal__service-box-radio" type="radio" name="home" id="44">
+                                <span class="modal__service-box-home">
+                                    <img src="./images/4-home.png" alt="home" class="modal__service-box-img">
+                                </span>
+
+                                <span class="modal__service-box-text">Фахверковые дома</span>
+                            </label>
+
+                            <label class="modal__service-box-label" for="55">
+                                <input class="modal__service-box-radio" type="radio" name="home" id="55">
+                                <span class="modal__service-box-home">
+                                    <img src="./images/5-besetka.png" alt="home" class="modal__service-box-img">
+                                </span>
+
+                                <span class="modal__service-box-text">Беседки</span>
+                            </label>
+                        </div>
+
+                        <div class="modal__service-card">
+                            <label class="modal__service-label" for="111">
+                                <input class="modal__service-home-area__radio" type="radio" name="card" id="111">
+                                <span class="radio__kvadrat"></span>
+                                <span class="modal__service-home-area__text">Под ключ</span>
+                            </label>
+
+                            <label class="modal__service-label modal__service-label-card" for="222">
+                                <input class="modal__service-home-area__radio" type="radio" name="card" id="222">
+                                <span class="radio__kvadrat"></span>
+                                <span class="modal__service-home-area__text">Коробка</span>
+                            </label>
+                        </div>
+
+                        <div class="container">
+                            <form class="modal-form">
+                                <input class="modal-form__input" type="tel" name="telephone" placeholder="Ваш телефон"
+                                    autocomplete="off">
+                                <a class="btn btn--box btn--box-rooms btn--modal__form" href="#">Получить расчет</a>
+                            </form>
+                        </div>
+
+                        <div class="modal__service-checkbox">
+                            <label class="modal__service-label modal__service-label-card" for="1111">
+                                <input class="modal__service-home-area__radio" type="checkbox" id="1111">
+                                <span class="radio__kvadrat radio__kvadrat-checkbox"></span>
+                                <span class="modal__service-home-area__text">Вы соглашаетесь с условиями
+                                    <span class="black"> обработки персональных данных</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <button class="btn--modal__x"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>

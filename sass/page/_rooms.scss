@@ -1,0 +1,32 @@
+.rooms{
+    text-align: center;
+    margin-top: 14.3rem;
+  
+    &__boxes{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+  
+      width: calc(46rem * 3);
+      margin: 0 auto;
+      margin-top: 8.1rem;
+      list-style: none;
+    }
+  
+    &__box{
+      width: 45.4rem;
+      height: 42.6rem;
+      margin-top: 0.3rem;
+  
+      &:not(:nth-child(3n)){
+         margin-right: 2px;
+      }
+    }
+  
+    &__img{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+  }
